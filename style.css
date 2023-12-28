@@ -1,0 +1,72 @@
+body{
+  background-color:hsl(218, 56%, 91%);
+  padding: 0;
+  padding-bottom: 50px;
+  font-family:'Outfit','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+
+  background-color:hsl(218, 56%, 91%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  width: 380px;
+  background-color:hsl(0, 0%, 100%);
+  margin-top: 100px; 
+  margin-bottom: 100px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 3px  hsl(220, 15%, 55%);
+   
+}
+.image{
+  width:340px;
+  padding: 20px;
+  border-radius: 50px;
+}
+.container h2{
+  font-size: 22px;
+  font-weight:700;
+  color: hsl(218, 44%, 22%);
+  display: flex;
+  word-spacing: 2px;
+  text-align: center;
+  justify-content: center;
+}
+.container p{
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-weight: 400;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+@media(max-width: 700px){
+  
+.container{
+  width: 300px;
+  background-color:hsl(0, 0%, 100%);
+  margin-top: 100px; 
+  margin-bottom: 100px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 3px  hsl(220, 15%, 55%);
+   
+}
+.image{
+  width:260px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.container h2{
+  font-size: 20px;
+  font-weight:600;
+}
+.container p{
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+}
